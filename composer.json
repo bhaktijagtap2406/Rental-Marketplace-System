@@ -1,0 +1,7 @@
+{
+    "name": "bhakti/rent-a-joy-marketplace",
+    "description": "Rent-A-Joy Marketplace website",
+    "require": {
+        "php": ">=7.4"
+    }
+}

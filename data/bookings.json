@@ -1,0 +1,32 @@
+[
+    {
+        "id": "b69e1108eb5d636",
+        "item_id": "i1",
+        "renter_id": "u69e110751e6b03",
+        "renter_name": "Bha",
+        "start_date": "2026-04-16",
+        "end_date": "2026-04-18",
+        "days": 2,
+        "base_price": 3000,
+        "discount_pct": 0,
+        "discount_amt": 0,
+        "total_price": 3000,
+        "status": "confirmed",
+        "created_at": "2026-04-16 18:38:38"
+    },
+    {
+        "id": "b69e110d2c7af75",
+        "item_id": "i1",
+        "renter_id": "u69e110b7cd6e81",
+        "renter_name": "Bhakti",
+        "start_date": "2026-04-19",
+        "end_date": "2026-04-20",
+        "days": 1,
+        "base_price": 1500,
+        "discount_pct": 0,
+        "discount_amt": 0,
+        "total_price": 1500,
+        "status": "confirmed",
+        "created_at": "2026-04-16 18:39:46"
+    }
+]

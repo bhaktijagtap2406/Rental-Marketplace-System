@@ -1,0 +1,32 @@
+# Env and node
+.env
+.env.local
+node_modules/
+vendor/
+
+# Local data (don't push your database files if they contain user data)
+# data/
+# uploads/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+dist
+dist-ssr
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

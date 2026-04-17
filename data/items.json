@@ -1,0 +1,90 @@
+[
+    {
+        "id": "i1",
+        "title": "Sony A7 III Camera",
+        "category": "Electronics",
+        "description": "Professional mirrorless camera with 24.2 MP full-frame sensor and exceptional low-light performance.",
+        "price_per_day": 1500,
+        "location": "Mumbai",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:34:59"
+    },
+    {
+        "id": "i2",
+        "title": "DJI Mini 3 Pro Drone",
+        "category": "Electronics",
+        "description": "Lightweight drone under 249 g with 4K\/60fps camera and 34-minute flight time.",
+        "price_per_day": 2000,
+        "location": "Delhi",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    },
+    {
+        "id": "i3",
+        "title": "Trek Mountain Bike",
+        "category": "Sports",
+        "description": "Premium hardtail mountain bike for trail adventures and off-road cycling.",
+        "price_per_day": 500,
+        "location": "Pune",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    },
+    {
+        "id": "i4",
+        "title": "4-Person Camping Tent",
+        "category": "Outdoors",
+        "description": "Waterproof family camping tent — sets up in 10 minutes, sleeps four.",
+        "price_per_day": 300,
+        "location": "Bangalore",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    },
+    {
+        "id": "i5",
+        "title": "Canon EOS R5",
+        "category": "Electronics",
+        "description": "45 MP mirrorless camera with 8K video, IBIS, and dual card slots.",
+        "price_per_day": 2500,
+        "location": "Hyderabad",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    },
+    {
+        "id": "i6",
+        "title": "PS5 Gaming Console",
+        "category": "Gaming",
+        "description": "Sony PlayStation 5 with DualSense controller and 2 games included.",
+        "price_per_day": 800,
+        "location": "Chennai",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    },
+    {
+        "id": "i7",
+        "title": "GoPro Hero 12 Black",
+        "category": "Electronics",
+        "description": "Action camera with 5.3K video, HyperSmooth 6.0 stabilization, and waterproofing.",
+        "price_per_day": 600,
+        "location": "Goa",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    },
+    {
+        "id": "i8",
+        "title": "Camping Kayak (2-seat)",
+        "category": "Outdoors",
+        "description": "Tandem sit-on-top kayak with paddles and life jackets. Perfect for rivers and lakes.",
+        "price_per_day": 700,
+        "location": "Kerala",
+        "image_url": "",
+        "owner_id": "u1",
+        "created_at": "2026-04-16 18:35:00"
+    }
+]
