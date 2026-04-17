@@ -20,28 +20,5 @@
         "password": "$2y$10$0F5aUOct2wiF.\/TP5SQDfuN7D4qj4OuBNl25NnbH38kPbClOQY44S",
         "role": "admin"
     },
-    {
-        "id": "u69e11038d38186",
-        "name": "Bhakti",
-        "email": "bhaktijagtap2406@gmail.com",
-        "password": "$2y$10$XE1E0jq6SZbT82WyXB2mqu.LQKQ2fophdZeghd7X2p2J4OojrsAMi",
-        "role": "owner",
-        "created_at": "2026-04-16 18:37:13"
-    },
-    {
-        "id": "u69e110751e6b03",
-        "name": "Bha",
-        "email": "newbhakti2406@gmail.com",
-        "password": "$2y$10$YjmGMoy9Vtc5sGNZC\/43C.VWqbmLRTaw3KAu9Z8Rt69Ur.ct8NFbe",
-        "role": "renter",
-        "created_at": "2026-04-16 18:38:13"
-    },
-    {
-        "id": "u69e110b7cd6e81",
-        "name": "Bhakti",
-        "email": "newbhakti24@gmail.com",
-        "password": "$2y$10$.mdUcKqHIGjg3oiOREa5DejPlhTQmOvPwjpEg5z\/YOktz1hI7AB4O",
-        "role": "renter",
-        "created_at": "2026-04-16 18:39:20"
-    }
+    
 ]
