@@ -50,35 +50,88 @@ C:\Users\Bhakti\Downloads\rent-a-joy-marketplace-main\rent-a-joy-marketplace-mai
 ```
 
 ---
+Good — this is what a proper README should say for **any user who downloads your project**.
 
-## Setup Instructions (Important)
+---
 
-You **cannot run directly from Downloads**. Do this:
+## How to Run the Project
 
-1. Copy the folder:
+### Option 1: Using PHP Built-in Server (Recommended – Simple)
 
+1. Download or extract the project folder
+
+2. Open Command Prompt / Terminal
+
+3. Navigate to the project folder:
+
+```bash
+cd path\to\rent-a-joy-marketplace-main
 ```
-rent-a-joy-marketplace-main
+
+Example:
+
+```bash
+cd C:\Users\YourName\Downloads\rent-a-joy-marketplace-main
 ```
 
-2. Paste it into:
+4. Start PHP server:
 
+```bash
+php -S localhost:8000
 ```
+
+(If PHP is not globally installed, use full path like:)
+
+```bash
+C:\xampp\php\php.exe -S localhost:8000
+```
+
+5. Open browser:
+
+```text
+http://localhost:8000
+```
+
+---
+
+### Option 2: Using XAMPP (Apache)
+
+1. Copy project folder to:
+
+```text
 C:\xampp\htdocs\
 ```
 
-Final path should be:
+2. Start Apache from XAMPP
 
-```
-C:\xampp\htdocs\rent-a-joy-marketplace-main
-```
+3. Open browser:
 
-3. Start XAMPP → Start **Apache**
-
-4. Open browser:
-
-```
+```text
 http://localhost/rent-a-joy-marketplace-main/
+```
+
+---
+
+## Required Folder Structure
+
+```text
+rent-a-joy-marketplace-main/
+│
+├── index.php
+├── add_item.php
+├── login.php
+├── logout.php
+├── book.php
+├── check_availability.php
+├── functions.php
+├── style.css
+├── script.js
+│
+├── uploads/
+└── data/
+    ├── users.json
+    ├── items.json
+    └── bookings.json
 ```
 
 ---
@@ -93,52 +146,71 @@ http://localhost/rent-a-joy-marketplace-main/
 
 ---
 
-## How It Works
+## Important Setup Notes
 
-1. Login as Owner → Add items
-2. Login as Renter → Browse items
-3. Select dates → Check availability
-4. Book item → Data stored in JSON
+* Make sure these folders exist:
+
+  * `uploads/`
+  * `data/`
+
+* Make sure JSON files exist:
+
+```json
+[]
+```
+
+for:
+
+* items.json
+* bookings.json
 
 ---
 
-## Common Errors (Fix Fast)
+## Common Errors & Fixes
 
 * **Not Found**
 
-  * Wrong folder path → Must be inside `htdocs`
-
-* **This site can’t be reached**
-
-  * Apache not running
+  * Server started in wrong folder → navigate correctly
 
 * **include() error**
 
-  * Missing `functions.php` or wrong folder structure
+  * Missing `functions.php` → check file location
+
+* **This site can’t be reached**
+
+  * Server not running
+
+* **Image upload not working**
+
+  * `uploads/` folder missing
+
+---
+
+## Features
+
+* Role-based login (Owner, Renter, Admin)
+* Item listing with image upload
+* Booking system with date validation
+* Real-time availability check
+* Dynamic pricing calculation
+* JSON-based storage (no database)
 
 ---
 
 ## Limitations
 
-* JSON storage (not scalable)
-* Basic security
-* No payment gateway
+* Not scalable (uses JSON instead of database)
+* Basic authentication (no encryption)
+* No payment system
 * No real-time notifications
 
 ---
 
-## Future Improvements
+## Future Scope
 
-* Payment integration
-* Database (MySQL)
-* Better authentication
-* Mobile app
-
----
-
-## License
-
-For educational use only.
+* Add MySQL database
+* Add payment gateway
+* Improve security
+* Add real-time features
 
 ---
-
