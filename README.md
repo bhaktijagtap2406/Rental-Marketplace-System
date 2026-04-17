@@ -15,7 +15,7 @@ This system allows users to list, browse, and rent items efficiently without usi
   * Add items with name, category, price, location, and image
 * Browse Items
 
-  * View items in a card-based UI
+  * Card-based UI for easy viewing
 * Booking System
 
   * Select start and end dates
@@ -25,8 +25,6 @@ This system allows users to list, browse, and rent items efficiently without usi
   * Automatic total calculation
   * Discount for long-duration rentals
 * Booking Management
-
-  * Stores booking history
 * Real-Time Availability Check
 * JSON-Based Storage (No Database)
 
@@ -43,28 +41,44 @@ This system allows users to list, browse, and rent items efficiently without usi
 
 ---
 
-## Project Structure
+## Project Location (Your System)
 
-```text
-rental_pro/
-│
-├── index.php
-├── login.php
-├── logout.php
-├── add_item.php
-├── dashboard.php
-├── history.php
-├── book.php
-├── check_availability.php
-├── functions.php
-├── style.css
-├── script.js
-│
-├── uploads/
-└── data/
-    ├── users.json
-    ├── items.json
-    └── bookings.json
+Current folder:
+
+```
+C:\Users\Bhakti\Downloads\rent-a-joy-marketplace-main\rent-a-joy-marketplace-main
+```
+
+---
+
+## Setup Instructions (Important)
+
+You **cannot run directly from Downloads**. Do this:
+
+1. Copy the folder:
+
+```
+rent-a-joy-marketplace-main
+```
+
+2. Paste it into:
+
+```
+C:\xampp\htdocs\
+```
+
+Final path should be:
+
+```
+C:\xampp\htdocs\rent-a-joy-marketplace-main
+```
+
+3. Start XAMPP → Start **Apache**
+
+4. Open browser:
+
+```
+http://localhost/rent-a-joy-marketplace-main/
 ```
 
 ---
@@ -79,45 +93,52 @@ rental_pro/
 
 ---
 
-## Setup Instructions
+## How It Works
 
-1. Install XAMPP
-2. Move the project folder to:
-   C:\xampp\htdocs\rental_pro
-3. Start Apache from XAMPP
-4. Open browser and go to:
-   [http://localhost/rental_pro/index.php](http://localhost/rental_pro/index.php)
+1. Login as Owner → Add items
+2. Login as Renter → Browse items
+3. Select dates → Check availability
+4. Book item → Data stored in JSON
 
 ---
 
-## How It Works
+## Common Errors (Fix Fast)
 
-1. Login as Owner to add items
-2. Login as Renter to browse items
-3. Select dates to check availability
-4. Book item and data is stored in JSON files
+* **Not Found**
+
+  * Wrong folder path → Must be inside `htdocs`
+
+* **This site can’t be reached**
+
+  * Apache not running
+
+* **include() error**
+
+  * Missing `functions.php` or wrong folder structure
 
 ---
 
 ## Limitations
 
-* Uses JSON instead of a database, so not scalable for large data
-* Basic authentication without encryption
-* No payment gateway integration
+* JSON storage (not scalable)
+* Basic security
+* No payment gateway
 * No real-time notifications
 
 ---
 
 ## Future Improvements
 
-* Payment gateway integration
-* Cloud database integration (MySQL or Firebase)
-* Improved security with encryption
-* Real-time chat system
-* Mobile application version
+* Payment integration
+* Database (MySQL)
+* Better authentication
+* Mobile app
 
 ---
 
 ## License
 
-This project is for educational purposes only.
+For educational use only.
+
+---
+
